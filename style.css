@@ -10,11 +10,13 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     min-height: 100vh;
+
+    background-color: antiquewhite;
 }
 
 main {
     display: flex;
-    gap: 1em;
+    gap: 0.4em;
 }
 
 .bg-container {
@@ -69,4 +71,11 @@ a {
     flex: 2;
 
     padding: 12em 0;
+}
+
+.form-bg {
+    background-color: white;
+    padding: 1em;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

@@ -11,3 +11,58 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     min-height: 100vh;
 }
+
+main {
+    display: flex;
+    gap: 1em;
+}
+
+.bg-container {
+    position: relative;
+    display: flex;
+    flex: 1;
+
+    justify-content: center;
+    width: 100%;
+}
+
+.bg-image {
+    width: 100%;
+}
+
+.logo-container {
+    position: absolute;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: white;
+    font-size: 4rem;
+
+    padding: 8px 0;
+}
+
+.odin-logo {
+    width: 72px;
+}
+
+.credits-container,
+a:visited,
+a {
+    color: white;
+    font-size: 1rem;
+}
+
+.credits-container {
+    position: absolute;
+}
+
+.form-container {
+    display: flex;
+    flex: 2;
+
+    padding: 12em 0;
+}

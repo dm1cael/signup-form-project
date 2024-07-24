@@ -42,6 +42,7 @@ main {
     color: white;
     font-size: 4rem;
 
+    margin-top: 2em;
     padding: 8px 0;
 }
 
@@ -58,6 +59,9 @@ a {
 
 .credits-container {
     position: absolute;
+    bottom: 0;
+
+    margin-bottom: 1em;
 }
 
 .form-container {

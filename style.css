@@ -70,7 +70,7 @@ a {
     display: flex;
     flex: 2;
 
-    padding: 12em 0;
+    padding: 4em 0;
 }
 
 .form-bg {
@@ -78,4 +78,71 @@ a {
     padding: 1em;
 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.fieldset-container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 4em 0 1em 0;
+    gap: 1em;
+}
+
+.input-container {
+    display: flex;
+    flex: 1;
+    gap: 4em;
+}
+
+.col-1,
+.col-2 {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1em;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+}
+
+.legend-txt,
+.form-t1,
+.form-t2 {
+    color: rgb(54, 54, 54);
+    font-size: 1.4rem;
+}
+
+.form-t2 {
+    margin-top: 2em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.form-t1 {
+    width: 75%;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    height: 2em;
+    width: 16em;
+    
+    padding: 0 0.5em;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+input[type="password"]:invalid {
+    border: 1px solid red;
 }

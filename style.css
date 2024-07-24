@@ -178,3 +178,8 @@ button:hover {
 .green:hover {
     cursor: pointer;
 }
+
+.noMatch {
+    display: none;
+    color: red;
+}

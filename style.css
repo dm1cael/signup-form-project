@@ -146,3 +146,35 @@ input:focus {
 input[type="password"]:invalid {
     border: 1px solid red;
 }
+
+.action {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 1em;
+    padding-left: 1em;
+    gap: 1em;
+}
+
+button {
+    width: 25%;
+    padding: 1em 0;
+    
+    background-color: #596D48;
+    color: white;
+    border-radius: 8px;
+    
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.green {
+    color: #596D48;
+}
+
+.green:hover {
+    cursor: pointer;
+}
